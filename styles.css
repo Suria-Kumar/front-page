@@ -1,0 +1,6 @@
+html{
+    background: url(assets/pic.jpg);
+    background-position: inherit;
+    background-attachment: fixed;
+    background-origin: border-box;
+}

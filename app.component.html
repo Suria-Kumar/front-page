@@ -1,0 +1,15 @@
+
+<div class="login_page">
+  <form class="form_view">
+    <h1>LOGIN FORM</h1>
+    <div class="input" >
+    <label>USERNAME</label><br>
+    <input type="text" placeholder="Email or Username" [(ngModel)]="username" required><br/>
+    <label>PASSWORD</label><br>
+    <input type="password" placeholder="Password" [(ngModel)]="password" required><br/>
+  </div>
+
+    <button (click)="onSubmit()" type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+</div>
